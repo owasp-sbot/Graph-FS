@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "graph_fs"
-version     = "v0.1.0"
+version     = "v0.1.1"
 description = "Graph-FS"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "Apache 2.0"
