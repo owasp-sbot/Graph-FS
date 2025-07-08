@@ -11,6 +11,8 @@ repository  = "https://github.com/owasp-sbot/Graph-FS"
 [tool.poetry.dependencies]
 python            = "^3.12"
 osbot-utils       = "*"
+memory-fs         = "*"
+mgraph-db         = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
