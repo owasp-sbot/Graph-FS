@@ -1,18 +1,11 @@
 import json
-from unittest import TestCase
-
 import graph_fs
-from osbot_utils.utils.Misc import str_md5
-
-from osbot_utils.helpers.html.Html__To__Html_Dict import Html__To__Html_Dict, STRING__SCHEMA_TEXT, STRING__SCHEMA_NODES
-
-from osbot_utils.helpers.html.Html_Dict__To__Html import Html_Dict__To__Html
-
-from osbot_utils.helpers.html.schemas.Schema__Html_Document import Schema__Html_Document
-
-from osbot_utils.helpers.html.Html_Document__To__Html_Dict import Html_Document__To__Html_Dict
+from unittest                                               import TestCase
+from osbot_utils.utils.Misc                                 import str_md5
+from osbot_utils.helpers.html.Html__To__Html_Dict           import Html__To__Html_Dict, STRING__SCHEMA_TEXT, STRING__SCHEMA_NODES
+from osbot_utils.helpers.html.Html_Dict__To__Html           import Html_Dict__To__Html
 from osbot_utils.utils.Files                                import file_save, path_combine, load_file
-from osbot_utils.utils.Json                                 import json_save, json_save_file_pretty, json_load_file, json_loads, json_file_load
+from osbot_utils.utils.Json                                 import json_save_file_pretty, json_file_load
 from osbot_utils.helpers.duration.decorators.print_duration import print_duration
 from osbot_utils.helpers.html.Html__To__Html_Document       import Html__To__Html_Document
 from memory_fs.file_fs.File_FS                              import File_FS
